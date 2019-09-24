@@ -17,7 +17,7 @@ def prompt_user
 end
 
 def capture_input
-  gets
+  gets.chomp
 end 
 
 def compare_input_with_random_number(number1, number2)
