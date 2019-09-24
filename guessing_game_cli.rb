@@ -8,7 +8,7 @@ def run_guessing_game
     puts "Goodbye!"
   end 
   
-  if number_to_guess == user_input.to_i
+  if number_to_guess == user_input
     puts("You guessed the correct number!") 
   else 
     puts("Sorry! The computer guessed #{number_to_guess}.")
