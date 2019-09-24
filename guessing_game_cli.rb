@@ -4,6 +4,9 @@ def run_guessing_game
   number_to_guess = rand(5) + 1 
   puts("Guess the number!")
   number_guessed = gets.chomp
+  number1 == number2 : "You guessed the correct number!" ? "Sorry! The computer guessed #{number}"
+  
+end
   
 # def run_guessing_game
 #   number_to_guess = generate_random_number
