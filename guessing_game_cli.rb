@@ -8,7 +8,7 @@ def run_guessing_game
     return "Goodbye!"
   end 
   
-  number1 == number2 : "You guessed the correct number!" ? "Sorry! The computer guessed #{number_to_guess}"
+  # number1 == number2 : "You guessed the correct number!" ? "Sorry! The computer guessed #{number_to_guess}"
   
 end
   
