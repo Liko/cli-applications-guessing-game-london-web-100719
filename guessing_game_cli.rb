@@ -4,6 +4,8 @@ def run_guessing_game
   number_to_guess = rand(5) + 1 
   user_input = gets.chomp
   
+  puts(user_input)
+  
   if user_input == "exit"
     return "Goodbye!"
   end 
