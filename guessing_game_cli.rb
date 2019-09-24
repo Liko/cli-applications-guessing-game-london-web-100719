@@ -10,7 +10,11 @@ def run_guessing_game
     puts "Goodbye!"
   end 
   
-  number_to_guess == user_input: puts("You guessed the correct number!") ? puts("Sorry! The computer guessed #{number_to_guess}")
+  if number_to_guess == user_input
+    puts("You guessed the correct number!") 
+  else 
+    puts("Sorry! The computer guessed #{number_to_guess}")
+  end
   
 end
   
