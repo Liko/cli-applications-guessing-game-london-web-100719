@@ -26,5 +26,5 @@ def compare_input_with_random_number(number1, number2)
 end 
 
 def print_statement(isNumberCorrectlyGuessed, number)
-  isNumberCorrectlyGuessed : "You guessed the correct number!" ? "Sorry! The computer guessed #{number}"
+  return isNumberCorrectlyGuessed : "You guessed the correct number!" ? "Sorry! The computer guessed #{number}"
 end
