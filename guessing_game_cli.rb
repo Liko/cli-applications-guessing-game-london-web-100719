@@ -11,7 +11,7 @@ def run_guessing_game
   if number_to_guess == user_input.to_i
     puts("You guessed the correct number!") 
   else 
-    puts("Sorry! The computer guessed #{number_to_guess}")
+    puts("Sorry! The computer guessed #{number_to_guess}.")
   end
   
 end
