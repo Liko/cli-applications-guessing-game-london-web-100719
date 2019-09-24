@@ -1,4 +1,10 @@
 # # Code your solution here!
+
+def run_guessing_game
+  number_to_guess = rand(5) + 1 
+  puts("Guess the number!")
+  number_guessed = gets.chomp
+  
 # def run_guessing_game
 #   number_to_guess = generate_random_number
 #   prompt_user
