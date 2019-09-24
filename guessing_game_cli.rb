@@ -4,9 +4,9 @@ def run_guessing_game
   number_to_guess = rand(5) + 1 
   user_input = gets.chomp
   
-  if user_input == "exit"
-    return "Goodbye!"
-  end 
+  # if user_input == "exit"
+  #   return "Goodbye!"
+  # end 
   
   # number1 == number2 : "You guessed the correct number!" ? "Sorry! The computer guessed #{number_to_guess}"
   
